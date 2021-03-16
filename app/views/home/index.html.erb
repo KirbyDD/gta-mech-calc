@@ -1,1 +1,7 @@
 <h1>CitylifeRP Mech Calculator</h1>
+
+<ul>
+  <% @services.each do |service| %>
+    <li><%= button_tag service.name %></li>
+  <% end %>
+</ul>
